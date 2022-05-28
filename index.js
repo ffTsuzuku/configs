@@ -1,4 +1,4 @@
-import eslint from './eslint'
-import prettier from './prettier'
+const eslintrc = require('./eslint.js')
+const prettier = require('./prettier.js')
 
-export { eslint, prettier }
+module.exports = { eslintrc, prettier }
