@@ -9,5 +9,8 @@
     "license": "ISC",
     "peerDependencies": {
         "eslint": ">= 3"
+    },
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.27.0"
     }
 }
